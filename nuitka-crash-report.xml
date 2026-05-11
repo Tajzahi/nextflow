@@ -1,18 +1,18 @@
 <?xml version='1.0' encoding='utf8'?>
-<nuitka-compilation-report nuitka_version="4.0.8" nuitka_commercial_version="not installed" mode="standalone" completion="error exit message (1)" exit_message="pywebview: Conflict between user and plugin decision for module 'webview.platforms.win32'.">
+<nuitka-compilation-report nuitka_version="4.0.8" nuitka_commercial_version="not installed" mode="standalone" completion="error exit message (1)" exit_message="pywebview: Conflict between user and plugin decision for module 'webview.platforms.android'.">
   <performance>
-    <memory_usage name="after_launch" value="36016128" />
+    <memory_usage name="after_launch" value="35991552" />
   </performance>
-  <data_file name="dist\index.html" source="${cwd}\dist\index.html" size="909" reason="specified data dir 'dist' on command line" tags="user,copy,data-dir-contents" />
-  <data_file name="dist\assets\DashboardView-lvLORq39.js" source="${cwd}\dist\assets\DashboardView-lvLORq39.js" size="12741" reason="specified data dir 'dist' on command line" tags="user,copy,data-dir-contents" />
-  <data_file name="dist\assets\EksekusiView-JbHFWYVG.js" source="${cwd}\dist\assets\EksekusiView-JbHFWYVG.js" size="14752" reason="specified data dir 'dist' on command line" tags="user,copy,data-dir-contents" />
-  <data_file name="dist\assets\LaporanView-CM-4Bzp6.js" source="${cwd}\dist\assets\LaporanView-CM-4Bzp6.js" size="13287" reason="specified data dir 'dist' on command line" tags="user,copy,data-dir-contents" />
-  <data_file name="dist\assets\index-D4gGPFjG.css" source="${cwd}\dist\assets\index-D4gGPFjG.css" size="40008" reason="specified data dir 'dist' on command line" tags="user,copy,data-dir-contents" />
-  <data_file name="dist\assets\index-DPTF3j1n.js" source="${cwd}\dist\assets\index-DPTF3j1n.js" size="212913" reason="specified data dir 'dist' on command line" tags="user,copy,data-dir-contents" />
-  <data_file name="dist\assets\mockData-CIoDRIES.js" source="${cwd}\dist\assets\mockData-CIoDRIES.js" size="1464" reason="specified data dir 'dist' on command line" tags="user,copy,data-dir-contents" />
-  <data_file name="dist\assets\vendor-lucide-CmiSOVFb.js" source="${cwd}\dist\assets\vendor-lucide-CmiSOVFb.js" size="18166" reason="specified data dir 'dist' on command line" tags="user,copy,data-dir-contents" />
-  <data_file name="dist\assets\vendor-react-l0sNRNKZ.js" source="${cwd}\dist\assets\vendor-react-l0sNRNKZ.js" size="1" reason="specified data dir 'dist' on command line" tags="user,copy,data-dir-contents" />
-  <data_file name="dist\assets\vendor-recharts-CwQ-GDjP.js" source="${cwd}\dist\assets\vendor-recharts-CwQ-GDjP.js" size="379051" reason="specified data dir 'dist' on command line" tags="user,copy,data-dir-contents" />
+  <data_file name="dist\index.html" source="${cwd}\dist\index.html" size="927" reason="specified data dir 'dist' on command line" tags="user,copy,data-dir-contents" />
+  <data_file name="dist\assets\DashboardView-lvLORq39.js" source="${cwd}\dist\assets\DashboardView-lvLORq39.js" size="12742" reason="specified data dir 'dist' on command line" tags="user,copy,data-dir-contents" />
+  <data_file name="dist\assets\EksekusiView-JbHFWYVG.js" source="${cwd}\dist\assets\EksekusiView-JbHFWYVG.js" size="14753" reason="specified data dir 'dist' on command line" tags="user,copy,data-dir-contents" />
+  <data_file name="dist\assets\LaporanView-CM-4Bzp6.js" source="${cwd}\dist\assets\LaporanView-CM-4Bzp6.js" size="13288" reason="specified data dir 'dist' on command line" tags="user,copy,data-dir-contents" />
+  <data_file name="dist\assets\index-D4gGPFjG.css" source="${cwd}\dist\assets\index-D4gGPFjG.css" size="40009" reason="specified data dir 'dist' on command line" tags="user,copy,data-dir-contents" />
+  <data_file name="dist\assets\index-DPTF3j1n.js" source="${cwd}\dist\assets\index-DPTF3j1n.js" size="212931" reason="specified data dir 'dist' on command line" tags="user,copy,data-dir-contents" />
+  <data_file name="dist\assets\mockData-CIoDRIES.js" source="${cwd}\dist\assets\mockData-CIoDRIES.js" size="1465" reason="specified data dir 'dist' on command line" tags="user,copy,data-dir-contents" />
+  <data_file name="dist\assets\vendor-lucide-CmiSOVFb.js" source="${cwd}\dist\assets\vendor-lucide-CmiSOVFb.js" size="18167" reason="specified data dir 'dist' on command line" tags="user,copy,data-dir-contents" />
+  <data_file name="dist\assets\vendor-react-l0sNRNKZ.js" source="${cwd}\dist\assets\vendor-react-l0sNRNKZ.js" size="2" reason="specified data dir 'dist' on command line" tags="user,copy,data-dir-contents" />
+  <data_file name="dist\assets\vendor-recharts-CwQ-GDjP.js" source="${cwd}\dist\assets\vendor-recharts-CwQ-GDjP.js" size="379084" reason="specified data dir 'dist' on command line" tags="user,copy,data-dir-contents" />
   <data_file name="core\secrets.enc" source="${cwd}\core\secrets.enc" size="248" reason="specified data dir 'core' on command line" tags="user,copy,data-dir-contents" />
   <data_file name="config\window_config.json" source="${cwd}\config\window_config.json" size="65" reason="specified data dir 'config' on command line" tags="user,copy,data-dir-contents" />
   <data_composer blob_size="None" />
@@ -30,7 +30,7 @@
     <option value="--include-data-dir=dist=dist" />
     <option value="--include-data-dir=core=core" />
     <option value="--include-data-dir=config=config" />
-    <option value="--enable-plugin=pywebview" />
+    <option value="--include-package=webview" />
     <option value="--include-package=webview.platforms.win32" />
     <option value="--include-package=webview.platforms.edgechromium" />
     <option value="--include-package=cryptography" />

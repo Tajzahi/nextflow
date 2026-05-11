@@ -93,8 +93,10 @@ if "%HAS_ICON%"=="1" (
     --include-data-dir=dist=dist ^
     --include-data-dir=core=core ^
     --include-data-dir=config=config ^
-    --enable-plugin=pywebview ^
-    --no-deployment-flag=excluded-module-usage ^
+    --disable-plugin=pywebview ^
+    --include-package=webview ^
+    --include-package=webview.platforms.win32 ^
+    --include-package=webview.platforms.edgechromium ^
     --include-package=cryptography ^
     --include-package=keyring ^
     --include-package=supabase ^
