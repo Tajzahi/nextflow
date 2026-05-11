@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='utf8'?>
+<nuitka-compilation-report nuitka_version="4.0.8" nuitka_commercial_version="not installed" mode="standalone" completion="error exit message (1)" exit_message="pywebview: Conflict between user and plugin decision for module 'webview.platforms.win32'.">
+  <performance>
+    <memory_usage name="after_launch" value="36016128" />
+  </performance>
+  <data_file name="dist\index.html" source="${cwd}\dist\index.html" size="909" reason="specified data dir 'dist' on command line" tags="user,copy,data-dir-contents" />
+  <data_file name="dist\assets\DashboardView-lvLORq39.js" source="${cwd}\dist\assets\DashboardView-lvLORq39.js" size="12741" reason="specified data dir 'dist' on command line" tags="user,copy,data-dir-contents" />
+  <data_file name="dist\assets\EksekusiView-JbHFWYVG.js" source="${cwd}\dist\assets\EksekusiView-JbHFWYVG.js" size="14752" reason="specified data dir 'dist' on command line" tags="user,copy,data-dir-contents" />
+  <data_file name="dist\assets\LaporanView-CM-4Bzp6.js" source="${cwd}\dist\assets\LaporanView-CM-4Bzp6.js" size="13287" reason="specified data dir 'dist' on command line" tags="user,copy,data-dir-contents" />
+  <data_file name="dist\assets\index-D4gGPFjG.css" source="${cwd}\dist\assets\index-D4gGPFjG.css" size="40008" reason="specified data dir 'dist' on command line" tags="user,copy,data-dir-contents" />
+  <data_file name="dist\assets\index-DPTF3j1n.js" source="${cwd}\dist\assets\index-DPTF3j1n.js" size="212913" reason="specified data dir 'dist' on command line" tags="user,copy,data-dir-contents" />
+  <data_file name="dist\assets\mockData-CIoDRIES.js" source="${cwd}\dist\assets\mockData-CIoDRIES.js" size="1464" reason="specified data dir 'dist' on command line" tags="user,copy,data-dir-contents" />
+  <data_file name="dist\assets\vendor-lucide-CmiSOVFb.js" source="${cwd}\dist\assets\vendor-lucide-CmiSOVFb.js" size="18166" reason="specified data dir 'dist' on command line" tags="user,copy,data-dir-contents" />
+  <data_file name="dist\assets\vendor-react-l0sNRNKZ.js" source="${cwd}\dist\assets\vendor-react-l0sNRNKZ.js" size="1" reason="specified data dir 'dist' on command line" tags="user,copy,data-dir-contents" />
+  <data_file name="dist\assets\vendor-recharts-CwQ-GDjP.js" source="${cwd}\dist\assets\vendor-recharts-CwQ-GDjP.js" size="379051" reason="specified data dir 'dist' on command line" tags="user,copy,data-dir-contents" />
+  <data_file name="core\secrets.enc" source="${cwd}\core\secrets.enc" size="248" reason="specified data dir 'core' on command line" tags="user,copy,data-dir-contents" />
+  <data_file name="config\window_config.json" source="${cwd}\config\window_config.json" size="65" reason="specified data dir 'config' on command line" tags="user,copy,data-dir-contents" />
+  <data_composer blob_size="None" />
+  <command_line>
+    <option value="--standalone" />
+    <option value="--windows-console-mode=force" />
+    <option value="--show-progress" />
+    <option value="--windows-icon-from-ico=assets\icon.ico" />
+    <option value="--output-filename=NextflowPro" />
+    <option value="--output-dir=build" />
+    <option value="--company-name=Antigravity" />
+    <option value="--product-name=Nextflow Pro" />
+    <option value="--file-version=2.0.0" />
+    <option value="--product-version=2.0.0" />
+    <option value="--include-data-dir=dist=dist" />
+    <option value="--include-data-dir=core=core" />
+    <option value="--include-data-dir=config=config" />
+    <option value="--enable-plugin=pywebview" />
+    <option value="--include-package=webview.platforms.win32" />
+    <option value="--include-package=webview.platforms.edgechromium" />
+    <option value="--include-package=cryptography" />
+    <option value="--include-package=keyring" />
+    <option value="--include-package=supabase" />
+    <option value="--include-package=sqlite3" />
+    <option value="--nofollow-import-to=tkinter" />
+    <option value="--nofollow-import-to=unittest" />
+    <option value="--nofollow-import-to=test" />
+    <option value="--nofollow-import-to=pydoc" />
+    <option value="--nofollow-import-to=doctest" />
+    <option value="--enable-plugin=anti-bloat" />
+    <option value="--assume-yes-for-downloads" />
+    <option value="main.py" />
+  </command_line>
+  <plugins>
+    <plugin name="anti-bloat" user_enabled="no" />
+    <plugin name="data-files" user_enabled="no" />
+    <plugin name="delvewheel" user_enabled="no" />
+    <plugin name="dll-files" user_enabled="no" />
+    <plugin name="eventlet" user_enabled="no" />
+    <plugin name="gevent" user_enabled="no" />
+    <plugin name="gi" user_enabled="no" />
+    <plugin name="glfw" user_enabled="no" />
+    <plugin name="implicit-imports" user_enabled="no" />
+    <plugin name="kivy" user_enabled="no" />
+    <plugin name="matplotlib" user_enabled="no" />
+    <plugin name="multiprocessing" user_enabled="no" />
+    <plugin name="options-nanny" user_enabled="no" />
+    <plugin name="pbr-compat" user_enabled="no" />
+    <plugin name="pkg-resources" user_enabled="no" />
+    <plugin name="playwright" user_enabled="no" />
+    <plugin name="pywebview" user_enabled="no" />
+    <plugin name="spacy" user_enabled="no" />
+    <plugin name="transformers" user_enabled="no" />
+  </plugins>
+  <distributions />
+  <python python_exe="${sys.prefix}\Scripts\python.exe" python_flavor="Unknown" python_version="3.12.13" os_name="Windows" os_release="10" arch_name="x86_64" filesystem_encoding="utf-8">
+    <search_path>
+      <path value="${cwd}" />
+      <path value="cpython-3.12-windows-x86_64-none\DLLs" />
+      <path value="cpython-3.12-windows-x86_64-none\Lib" />
+      <path value="cpython-3.12-windows-x86_64-none" />
+      <path value="${sys.prefix}" />
+      <path value="${sys.prefix}\Lib\site-packages" />
+      <path value="${sys.prefix}\Lib\site-packages\win32" />
+      <path value="${sys.prefix}\Lib\site-packages\win32\lib" />
+      <path value="${sys.prefix}\Lib\site-packages\Pythonwin" />
+    </search_path>
+  </python>
+  <output run_filename="${cwd}\build\main.dist\NextflowPro.exe" />
+</nuitka-compilation-report>

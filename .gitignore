@@ -1,0 +1,12 @@
+# Secrets — JANGAN pernah di-commit
+.env
+core/secrets.enc
+build_tools/build.key
+
+# Build output
+build/
+installer_output/
+__pycache__/
+*.pyc
+.venv/
+node_modules/
