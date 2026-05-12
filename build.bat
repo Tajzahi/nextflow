@@ -97,7 +97,14 @@ if "%HAS_ICON%"=="1" (
     --include-package=webview ^
     --include-package=webview.platforms.win32 ^
     --include-package=webview.platforms.edgechromium ^
+    --include-package=selenium ^
+    --include-package=pandas ^
+    --include-package=openpyxl ^
     --include-package=cryptography ^
+    --noinclude-pytest-mode=nofollow ^
+    --noinclude-setuptools-mode=nofollow ^
+    --nofollow-import-to=pandas.tests ^
+    --nofollow-import-to=unittest ^
     --include-package=keyring ^
     --include-package=supabase ^
     --include-package=sqlite3 ^

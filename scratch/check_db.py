@@ -12,26 +12,20 @@ else:
     # Ambil daftar tabel
     cursor.execute("SELECT name FROM sqlite_master WHERE type='table';")
     tables = cursor.fetchall()
-    print(f"Tabel ditemukan: {tables}")
     
-    if ('log_laporan',) in tables:
-        print("\n--- 5 LOG TERAKHIR (log_laporan) ---")
-        try:
-            # Cek kolom is_synced ada atau tidak
-            cursor.execute("PRAGMA table_info(log_laporan)")
-            columns = [c[1] for c in cursor.fetchall()]
-            print(f"Kolom: {columns}")
-            
-            select_cols = "id, tanggal, baris, status, keterangan"
-            if 'is_synced' in columns:
-                select_cols += ", is_synced"
-            
-            cursor.execute(f"SELECT {select_cols} FROM log_laporan ORDER BY id DESC LIMIT 5")
-            rows = cursor.fetchall()
-            for r in rows:
-                print(r)
-        except Exception as e:
-            print(f"Gagal baca log_laporan: {e}")
+    print("--- DETAIL LOG TANGGAL 12 MEI 2026 ---")
+    try:
+        cursor.execute("""
+            SELECT id, baris, status, is_synced, waktu_eksekusi 
+            FROM log_laporan 
+            WHERE tanggal = '12 Mei 2026' 
+            ORDER BY baris ASC
+        """)
+        rows = cursor.fetchall()
+        for r in rows:
+            print(f"ID: {r[0]} | Baris: {r[1]} | Status: {r[2]} | Synced: {r[3]} | Waktu: {r[4]}")
+    except Exception as e:
+        print(f"Error: {e}")
             
     print("\n--- RINGKASAN HARIAN ---")
     try:
