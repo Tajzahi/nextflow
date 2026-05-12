@@ -10,7 +10,7 @@ import sys
 # GANTI NILAI INI SETELAH MENJALANKAN:
 # python build_tools/encrypt_env.py
 # ============================================
-_BUILD_KEY = b"Xw01UkFTMaLJh0yIYrTXTIa-TI4oUqwCBz9P4mU-LfQ="
+_BUILD_KEY = b"ks-a2s3qhRr6I2fsl1leaEcEzlYGkdYOx-OeDymO_TY="
 
 _secrets_cache: dict = {}
 
